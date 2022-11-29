@@ -54,3 +54,23 @@ type of parameter is string.
 ## Sample Request
 
 `https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-vaccination-sites-1/providerNumber?provider_type="Pharmacy"&provider_name="Spring Meadow Pharmacy"&address="19 1783 Plessis Rd"`
+
+## Resources
+
+```
+"response": [
+  {
+    "provider_type" : "Pharmacy",
+    "provider_name" : "Spring Meadow Pharmacy",
+    "status" : "Taking appointments",
+    "date" : "",
+    "date_updated" : "11/28/2022, 12:00 AM",
+    "vaccination_comments" : "2,6,",
+    "note" : "",
+    "address" : "19 1783 Plessis Rd",
+    "phone" : "204-504-2037"
+  },
+  ...
+],
+"status" : "success"
+```
