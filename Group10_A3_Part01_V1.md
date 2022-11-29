@@ -34,18 +34,20 @@ type of parameter is string.
 
 ## Resources
 
+```
 "results": [
-
   {
-  
-  id: "",
-  
-  
+    "provider_type" : "",
+    "provider_name" : "",
+    "status" : "",
+    "date" : "",
+    "date_updated" : "",
+    "vaccination_comments" : "",
+    "note" : "",
+    "address" : "",
+    "phone" : ""
   },
-  
   ...
-
-
 ],
-
 "status" : ""
+```
