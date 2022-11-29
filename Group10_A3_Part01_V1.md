@@ -32,4 +32,15 @@ type of parameter is string.
 
 
 
-## Sample Requests
+## Resources
+
+"results": [
+  {
+  id: "",
+  
+  },
+  ...
+
+
+],
+"status" : ""
