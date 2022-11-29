@@ -10,7 +10,7 @@ There is only one endpoint for this API.
 
 ### `GET` /providerNumber
 
-the URL of endpoint is : https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-vaccination-sites-1/providerNumber
+The URL of endpoint is : https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-vaccination-sites-1/providerNumber
 
 ## Parameters
 
