@@ -6,7 +6,7 @@ The API will provide users the provider's phone number of the Covid-19 and Flu v
 
 ## Endpoints
 
-There is only one end point for this API.
+There is only one endpoint for this API.
 
 ### `GET` /providerNumber
 
