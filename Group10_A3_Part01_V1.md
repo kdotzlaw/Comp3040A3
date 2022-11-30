@@ -2,25 +2,25 @@
 
 ## API Description
 
-The API will provide users the phone number of the provider of the COVID 19 and Flu - Vacination sites. The user will have to enter the provider's name, address and type to get the provider's phone number.  
+The API will provide users the provider's phone number of the COVID-19 and Flu vaccination sites. The user will have to enter the provider's name, address, and type to get the provider's phone number.  
 
 ## Endpoints
 
-There is only one end point for this API.
+There is only one endpoint for this API.
 
 ### `GET` /providerNumber
 
-the URL of endpoint is : https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-vaccination-sites-1/providerNumber
+The URL of endpoint is : https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-vaccination-sites-1/providerNumber
 
 ## Parameters
 
 ### 1. providerName (String)
 
-- The name of the provider of flu shots - a required parameter and its type is string.
+- The name of the provider of flu shots - a required parameter with type string.
  
 ### 2. providerAddress (String)
 
-- The address of the provider of flu shots - a required parameter and its type is string.
+- The address of the provider of flu shots - a required parameter with type string.
 
 ### 3. providerType (String)
 
