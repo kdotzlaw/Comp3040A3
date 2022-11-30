@@ -2,7 +2,7 @@
 
 ## API Description
 
-The API will provide users the provider's phone number of the Covid-19 and Flu vaccination sites. The user will have to enter the provider name, address, and provider type to get the provider's phone number.  
+The API will provide users the provider's phone number of the COVID-19 and Flu vaccination sites. The user will have to enter the provider's name, address, and type to get the provider's phone number.  
 
 ## Endpoints
 
@@ -14,41 +14,31 @@ The URL of endpoint is : https://geoportal.gov.mb.ca/manitoba-covid-19-and-flu-v
 
 ## Parameters
 
-### 1. Provider Name (String)
+### 1. providerName (String)
 
- It is the name of the provider of flu shots. It is a required parameter 
- and the type of this parameter must be string.
+- The name of the provider of flu shots - a required parameter with type string.
  
- 
-### 2. Provider Address (String)
+### 2. providerAddress (String)
 
-It is the address of the provider of flu shots. It is also a required paramter
-and the type of parameter is string.
+- The address of the provider of flu shots - a required parameter with type string.
 
-### 3. Provider Type (String)
+### 3. providerType (String)
 
-It is the type of the provider of flu shots. It is a required parameter and the
-type of parameter is string.
+- The type of the provider of flu shots - a required parameter with type string.
 
 
 
 ## Resources
 
 ```
-"results": [
+"results": {
   {
-    "provider_type" : "",
-    "provider_name" : "",
-    "status" : "",
-    "date" : "",
-    "date_updated" : "",
-    "vaccination_comments" : "",
-    "note" : "",
-    "address" : "",
-    "phone" : ""
-  },
-  ...
-],
+    "providerType" : providerType,
+    "providerName" : providerName,
+    "address" : providerAddress,
+    "phone" : phoneNumber
+  }
+},
 "status" : ""
 ```
 ## Sample Request
@@ -58,19 +48,13 @@ type of parameter is string.
 ## Sample Response
 
 ```
-"response": [
+"results": {
   {
-    "provider_type" : "Pharmacy",
-    "provider_name" : "Spring Meadow Pharmacy",
-    "status" : "Taking appointments",
-    "date" : "",
-    "date_updated" : "11/28/2022, 12:00 AM",
-    "vaccination_comments" : "2,6,",
-    "note" : "",
+    "providerType" : "Pharmacy",
+    "providerName" : "Spring Meadow Pharmacy",
     "address" : "19 1783 Plessis Rd",
     "phone" : "204-504-2037"
-  },
-  ...
-],
+  }
+},
 "status" : "success"
 ```
